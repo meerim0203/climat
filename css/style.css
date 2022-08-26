@@ -1,0 +1,1250 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 50px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(5px);
+  transition: 1s;
+}
+#header .header--general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: ani 1s alternate linear;
+}
+@keyframes ani {
+  0% {
+    transform: translateY(-500px);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+#header .header--general__logo {
+  display: flex;
+  align-items: center;
+}
+#header .header--general__logo--nav a {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  padding-left: 10px;
+}
+#header .header--general__logo2 {
+  display: flex;
+  align-items: center;
+}
+#header .header--general__logo2--pipe p {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  padding-left: 10px;
+}
+#header .header--general__logo3 {
+  display: flex;
+  align-items: center;
+}
+#header .header--general__logo3--tape__nav a {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  padding: 0 10px;
+}
+#header .header--general button {
+  padding: 10px 30px;
+  border: 1px solid #8DB932;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+  background: #8DB932;
+  animation: but 2s alternate linear;
+}
+#header .header--general button:hover {
+  transform: scale(1.2);
+  border: 1px solid #8DB932;
+  background: transparent;
+}
+@keyframes but {
+  0% {
+    opacity: 0;
+  }
+}
+
+#hero {
+  background: url("../img/bg-1.png") no-repeat center/cover;
+  min-height: 160vh;
+}
+#hero .hero--general__gen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 170px;
+}
+#hero .hero--general__gen button {
+  padding: 10px 30px;
+  border: 1px solid #8DB932;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+  background: transparent;
+}
+#hero .hero--general__gen button:hover {
+  transform: scale(1.1);
+  border: 1px solid #8DB932;
+  background: transparent;
+}
+#hero .hero--general__gen h1 {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#hero .hero--general__gen h1:hover {
+  transform: scale(1.1);
+  color: #8DB932;
+  text-decoration-line: underline;
+}
+#hero .hero--general__title {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#hero .hero--general__title h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+#hero .hero--general__title--block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 414px;
+  height: 44px;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 51.04%, rgba(255, 255, 255, 0) 100%);
+}
+#hero .hero--general__title--block h3 {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #769D25;
+}
+#hero .hero--general__work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 500px;
+}
+#hero .hero--general__work--block {
+  height: 237px;
+  width: 253px;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(239, 251, 255, 0.5) 100%);
+  box-shadow: 0 8px 16px #E0F5FF;
+}
+#hero .hero--general__work--block__learn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#hero .hero--general__work--block__learn h1 {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #263238;
+  padding-top: 20px;
+}
+#hero .hero--general__work--block__line {
+  width: 213px;
+  height: 1px;
+  background: #AAC8D7;
+  margin: 20px 15px;
+}
+#hero .hero--general__work--block p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.44px;
+  color: #263238;
+  padding: 0 15px;
+}
+
+#setting {
+  background: url("../img/bg-2.png") no-repeat center/cover;
+  min-height: 100vh;
+}
+#setting .setting--general {
+  padding: 200px 0;
+}
+#setting .setting--general h1 {
+  font-weight: 600;
+  font-size: 54px;
+  text-align: center;
+  color: #263238;
+  padding-bottom: 70px;
+}
+#setting .setting--general .setting--general__swiper h2 {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #263238;
+  padding-top: 20px;
+}
+#setting .setting--general button {
+  padding: 10px 30px;
+  border: 1px solid #8DB932;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+  background: #8DB932;
+  border-radius: 10px;
+  margin: 50px 590px;
+}
+#setting .setting--general button:hover {
+  transform: scale(1.1);
+  border: 1px solid #8DB932;
+  background: transparent;
+  color: #8DB932;
+}
+#setting .setting--general .swiper {
+  width: 70%;
+  height: 70%;
+}
+#setting .setting--general .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 150px;
+  height: 200px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(239, 251, 255, 0.5) 100%);
+  box-shadow: 0 8px 16px #E0F5FF;
+  border-radius: 20px;
+}
+#setting .setting--general .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#product {
+  background: #F2F9FD;
+}
+#product .product--general h1 {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  color: #263238;
+}
+#product .product--general__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#product .product--general__title label {
+  padding: 10px 30px;
+  background: #FFFFFF;
+  border: 2px solid #BDCFDB;
+  transition: 0.4s;
+}
+#product .product--general__title label:hover {
+  background: #8DB932;
+  color: #FFFFFF;
+}
+#product .product--general__name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.44px;
+  color: #263238;
+  margin-top: 50px;
+}
+#product .product--general input {
+  display: none;
+}
+#product .product--general__input {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#product .product--general__input--block {
+  display: flex;
+  flex-wrap: wrap;
+}
+#product .product--general__input--block__desc {
+  margin: 20px;
+}
+#product .product--general .product--general__inputs--inverter {
+  display: flex;
+  flex-wrap: wrap;
+}
+#product .product--general .product--general__inputs--inverter__give {
+  margin: 20px;
+}
+#product .product--general #standard:checked ~ .product--general__inputs--inverter,
+#product .product--general #standard:checked ~ .product--general__input--multi {
+  display: flex;
+}
+#product .product--general #standard:checked ~ #standard_label {
+  background: #8DB932;
+  color: white;
+}
+#product .product--general #inverter:checked ~ .product--general__input--block,
+#product .product--general #inverter:checked ~ .product--general__input--multi {
+  display: none;
+}
+#product .product--general #multi:checked ~ .product--general__inputs--inverter {
+  display: none;
+  background: red;
+}
+#product .product--general .product--general__input--block {
+  margin-top: 100px;
+}
+#product .product--general .product--general__input--block__desc {
+  width: 253px;
+  height: 100%;
+  padding: 10px 0;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+#product .product--general .product--general__input--block__desc--took {
+  width: 208px;
+  height: 24px;
+  background: #FFD6D6;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+}
+#product .product--general .product--general__input--block__desc--took p {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #333333;
+}
+#product .product--general .product--general__input--block__desc button {
+  width: 211px;
+  height: 39px;
+  border: 1px solid #8DB932;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+  background: #8DB932;
+  border-radius: 10px;
+  margin: 5px 20px;
+}
+#product .product--general .product--general__input--block__desc button:hover {
+  transform: scale(1.1);
+  border: 1px solid #8DB932;
+  background: transparent;
+  color: #8DB932;
+}
+#product .product--general .product--general__input--block__desc img {
+  padding: 15px 47px;
+}
+#product .product--general .product--general__input--block__desc h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #263238;
+  padding: 5px 20px;
+}
+#product .product--general .product--general__input--block__desc--pipe {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 3px 20px;
+}
+#product .product--general .product--general__input--block__desc--pipe__icons {
+  color: #78909C;
+}
+#product .product--general .product--general__input--block__desc--pipe p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #333333;
+  padding: 0 5px;
+}
+#product .product--general .product--general__input--block__desc--inputs #one:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #one:checked ~ .product--general__input--block__desc--inputs__idea--three,
+#product .product--general .product--general__input--block__desc--inputs #one:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #two:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #two:checked ~ .product--general__input--block__desc--inputs__idea--three,
+#product .product--general .product--general__input--block__desc--inputs #two:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #three:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #three:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #three:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #four:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #four:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #four:checked ~ .product--general__input--block__desc--inputs__idea--three {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #one-do:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #one-do:checked ~ .product--general__input--block__desc--inputs__idea--three,
+#product .product--general .product--general__input--block__desc--inputs #one-do:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #two-did:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #two-did:checked ~ .product--general__input--block__desc--inputs__idea--three,
+#product .product--general .product--general__input--block__desc--inputs #two-did:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #three-done:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #three-done:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #three-done:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #four-say:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #four-say:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #four-say:checked ~ .product--general__input--block__desc--inputs__idea--three {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #one-said:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #one-said:checked ~ .product--general__input--block__desc--inputs__idea--three,
+#product .product--general .product--general__input--block__desc--inputs #one-said:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #two-get:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #two-get:checked ~ .product--general__input--block__desc--inputs__idea--three,
+#product .product--general .product--general__input--block__desc--inputs #two-get:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #three-got:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #three-got:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #three-gor:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #four-gotten:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #four-gotten:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #four-gotten:checked ~ .product--general__input--block__desc--inputs__idea--three {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #one-see:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #one-see:checked ~ .product--general__input--block__desc--inputs__idea--three,
+#product .product--general .product--general__input--block__desc--inputs #one-see:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #two-saw:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #two-saw:checked ~ .product--general__input--block__desc--inputs__idea--three,
+#product .product--general .product--general__input--block__desc--inputs #two-saw:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #three-seen:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #three-seen:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #three-seen:checked ~ .product--general__input--block__desc--inputs__idea--four {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs #four-use:checked ~ .product--general__input--block__desc--inputs__idea--one,
+#product .product--general .product--general__input--block__desc--inputs #four-use:checked ~ .product--general__input--block__desc--inputs__idea--two,
+#product .product--general .product--general__input--block__desc--inputs #four-use:checked ~ .product--general__input--block__desc--inputs__idea--three {
+  display: none;
+}
+#product .product--general .product--general__input--block__desc--inputs__label {
+  margin: 5px 10px;
+}
+#product .product--general .product--general__input--block__desc--inputs__label label {
+  font-size: 12px;
+  padding: 3px 8px;
+  background: white;
+  color: black;
+  border: 2px solid #BDCFDB;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+#product .product--general .product--general__input--block__desc--inputs__label label:hover {
+  background: #8DB932;
+  color: #FFFFFF;
+}
+#product .product--general .product--general__input--block__desc--inputs__label h6 {
+  font-weight: 400;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  color: #263238;
+  padding: 8px 0;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--one p {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration-line: line-through;
+  color: #D02726;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--one h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #263238;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--two p {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration-line: line-through;
+  color: #D02726;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--two h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #263238;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--three {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--three p {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration-line: line-through;
+  color: #D02726;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--three h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #263238;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--four {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--four p {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration-line: line-through;
+  color: #D02726;
+}
+#product .product--general .product--general__input--block__desc--inputs__idea--four h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #263238;
+}
+#product .product--general .product--general__inputs--inverter {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+#product .product--general .product--general__inputs--inverter__give {
+  width: 253px;
+  height: 650px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+#product .product--general .product--general__inputs--inverter__give--taken {
+  width: 208px;
+  height: 24px;
+  background: #FFD6D6;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+}
+#product .product--general .product--general__inputs--inverter__give--taken p {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #333333;
+}
+#product .product--general .product--general__inputs--inverter__give button {
+  width: 211px;
+  height: 39px;
+  border: 1px solid #8DB932;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+  background: #8DB932;
+  border-radius: 10px;
+  margin: 5px 20px;
+}
+#product .product--general .product--general__inputs--inverter__give button:hover {
+  transform: scale(1.1);
+  border: 1px solid #8DB932;
+  background: transparent;
+  color: #8DB932;
+}
+#product .product--general .product--general__inputs--inverter__give img {
+  padding: 15px 47px;
+}
+#product .product--general .product--general__inputs--inverter__give h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #263238;
+  padding: 5px 20px;
+}
+#product .product--general .product--general__inputs--inverter__give--play {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 3px 20px;
+}
+#product .product--general .product--general__inputs--inverter__give--play__icon {
+  color: #78909C;
+}
+#product .product--general .product--general__inputs--inverter__give--play p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #333333;
+  padding: 0 5px;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be:checked ~ .product--general__inputs--inverter__give--inputs11__id--were,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was:checked ~ .product--general__inputs--inverter__give--inputs11__id--were,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been:checked ~ .product--general__inputs--inverter__give--inputs11__id--were {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be-ask:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be-ask:checked ~ .product--general__inputs--inverter__give--inputs11__id--were,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be-ask:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was-asked:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was-asked:checked ~ .product--general__inputs--inverter__give--inputs11__id--were,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was-asked:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were-need:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were-need:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were-need:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been-needed:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been-needed:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been-needed:checked ~ .product--general__inputs--inverter__give--inputs11__id--were {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be-leave:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be-leave:checked ~ .product--general__inputs--inverter__give--inputs11__id--were,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be-leave:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was-left:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was-left:checked ~ .product--general__inputs--inverter__give--inputs11__id--were,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was-left:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were-mean:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were-mean:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were-mean:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been-meant:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been-meant:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been-meant:checked ~ .product--general__inputs--inverter__give--inputs11__id--were {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be-let:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be-let:checked ~ .product--general__inputs--inverter__give--inputs11__id--were,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #be-let:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was-keep:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was-keep:checked ~ .product--general__inputs--inverter__give--inputs11__id--were,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #was-keep:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were-kept:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were-kept:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #were-kept:checked ~ .product--general__inputs--inverter__give--inputs11__id--been {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been-put:checked ~ .product--general__inputs--inverter__give--inputs11__id--be,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been-put:checked ~ .product--general__inputs--inverter__give--inputs11__id--was,
+#product .product--general .product--general__inputs--inverter__give--inputs11 #been-put:checked ~ .product--general__inputs--inverter__give--inputs11__id--were {
+  display: none;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__label22 {
+  margin: 5px 10px;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__label22 label {
+  font-size: 12px;
+  padding: 3px 8px;
+  background: white;
+  color: black;
+  border: 2px solid #BDCFDB;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__label22 label:hover {
+  background: #8DB932;
+  color: #FFFFFF;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__label22 h6 {
+  font-weight: 400;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  color: #263238;
+  padding: 8px 0;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--be {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--be p {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration-line: line-through;
+  color: #D02726;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--be h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #263238;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--was {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--was p {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration-line: line-through;
+  color: #D02726;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--was h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #263238;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--were {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--were p {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration-line: line-through;
+  color: #D02726;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--were h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #263238;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--been {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--been p {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration-line: line-through;
+  color: #D02726;
+}
+#product .product--general .product--general__inputs--inverter__give--inputs11__id--been h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #263238;
+}
+
+#process {
+  background: url("../img/bg-3.png") no-repeat center/cover;
+  min-height: 100vh;
+}
+#process .process--general h1 {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 50px;
+}
+#process .process--general__desc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+#process .process--general__desc--item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 50px 0;
+}
+#process .process--general__desc--item__icon1 {
+  display: flex;
+  gap: 50px;
+}
+#process .process--general__desc--item__icon1 div {
+  font-size: 30px;
+  color: #8DB932;
+  width: 40px;
+  padding: 20px 0;
+}
+#process .process--general__desc--item__icon1 h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+#process .process--general__desc--item__icon2 {
+  display: flex;
+  gap: 50px;
+}
+#process .process--general__desc--item__icon2 div {
+  font-size: 30px;
+  color: #8DB932;
+  width: 40px;
+  padding: 20px 0;
+}
+#process .process--general__desc--item__icon2 h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+#process .process--general__desc--item__icon2 h2 span {
+  color: #D02726;
+}
+#process .process--general__desc--item h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+#process .process--general__block {
+  width: 1098px;
+  height: 378px;
+  background: #DDEFFF;
+  box-shadow: 0 8px 24px rgba(0, 88, 140, 0.22);
+  border-radius: 30px;
+  position: absolute;
+  left: 160px;
+}
+#process .process--general__block h4 {
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  color: #263238;
+  padding: 30px 0;
+}
+#process .process--general__block--god {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#process .process--general__block--god__take--circle {
+  display: flex;
+}
+#process .process--general__block--god__take--circle__div {
+  width: 72px;
+  height: 72px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(239, 251, 255, 0.5) 100%);
+  box-shadow: 0 8px 16px #E0F5FF;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+#process .process--general__block--god__take--circle__div p {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  color: #45B2EA;
+  padding-left: 20px;
+}
+#process .process--general__block--god__take--circle h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #263238;
+  padding: 30px 10px;
+}
+
+#stand {
+  min-height: 50vh;
+}
+#order {
+  padding: 100px 0;
+}
+#order .order--general h1 {
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  color: #263238;
+  padding-bottom: 80px;
+}
+#order .order--general .swiper {
+  width: 100%;
+  height: 100%;
+}
+#order .order--general .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#order .order--general .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#order .order--general button {
+  padding: 10px 30px;
+  border: 1px solid #8DB932;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+  background: #8DB932;
+  border-radius: 10px;
+  margin: 60px 500px;
+}
+#order .order--general button:hover {
+  transform: scale(1.1);
+  border: 1px solid #8DB932;
+  background: transparent;
+  color: #8DB932;
+}
+
+#ask {
+  background: url("../img/bg-4.png") no-repeat center/cover;
+  min-height: 100vh;
+}
+#ask .ask--general h1 {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  color: #263238;
+  padding: 50px 0;
+}
+#ask .ask--general details {
+  width: 1100px;
+  border: 1px solid white;
+  padding: 20px 50px;
+  background: transparent;
+  box-shadow: 0 2px 8px rgba(8, 35, 48, 0.24);
+  border-radius: 10px;
+  margin: 50px 0;
+}
+#ask .ask--general details p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.44px;
+  color: #000000;
+}
+#ask .ask--general button {
+  width: 221px;
+  height: 49px;
+  border: 1px solid #45B2EA;
+  color: black;
+  font-size: 18px;
+  transition: 0.4s;
+  background: transparent;
+  border-radius: 10px;
+  margin: 50px 480px;
+}
+#ask .ask--general button:hover {
+  transform: scale(1.1);
+  border: 1px solid #45B2EA;
+  background: transparent;
+  color: white;
+}
+
+#page {
+  background: #F2F9FD;
+  padding: 100px 0;
+}
+#page .page--general h1 {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  color: #263238;
+  padding-bottom: 80px;
+}
+#page .page--general .swiper {
+  width: 100%;
+  height: 100%;
+}
+#page .page--general .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#page .page--general .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#group {
+  padding: 100px 0;
+}
+#group .group--general .swiper {
+  width: 100%;
+  height: 100%;
+}
+#group .group--general .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#group .group--general .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#line {
+  background: url("../img/bg-6.png") no-repeat center/cover;
+  min-height: 100vh;
+}
+#line .line--general h1 {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 100px;
+}
+#line .line--general__gen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+#line .line--general__gen--btn1 {
+  width: 221px;
+  height: 49px;
+  border: 1px solid #BDCFDB;
+  color: white;
+  font-size: 18px;
+  transition: 0.4s;
+  background: transparent;
+  border-radius: 10px;
+}
+#line .line--general__gen--btn1:hover {
+  transform: scale(1.1);
+  border: 1px solid #45B2EA;
+  background: #8DB932;
+  color: white;
+}
+#line .line--general__gen--btn2 {
+  width: 221px;
+  height: 49px;
+  border: 1px solid #BDCFDB;
+  color: white;
+  font-size: 18px;
+  transition: 0.4s;
+  background: transparent;
+  border-radius: 10px;
+}
+#line .line--general__gen--btn2:hover {
+  transform: scale(1.1);
+  border: 1px solid #45B2EA;
+  background: #8DB932;
+  color: white;
+}
+#line .line--general .swiper {
+  width: 100%;
+  height: 100%;
+}
+#line .line--general .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#line .line--general .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#footer {
+  background: #162252;
+  padding: 30px 0;
+}
+#footer .footer--general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer .footer--general__block p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding: 8px 0;
+}
+#footer .footer--general__block2--emile {
+  display: flex;
+  gap: 50px;
+  padding: 5px 0;
+}
+#footer .footer--general__block2--emile img {
+  width: 30px;
+}
+#footer .footer--general__block2--emile p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  color: #FFFFFF;
+}
+#footer .footer--general__block2--icon {
+  display: flex;
+}
+#footer .footer--general__block2--icon div {
+  font-size: 30px;
+  color: #FFFFFF;
+  padding: 10px 10px;
+}
+#footer .footer--general p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,339 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+  #stand {
+    min-height: 2vh;
+  }
+}
+@media (max-width: 1200px) {
+  #process .process--general__block {
+    left: 56px;
+  }
+  #hero .hero--general__work {
+    margin: 0 0 0 -30px;
+  }
+  #setting .setting--general button {
+    margin: 50px 476px;
+  }
+  #process .process--general__desc--item__icon1 {
+    display: flex;
+    gap: 4px;
+  }
+  #process .process--general__desc--item__icon2 {
+    display: flex;
+    gap: 4px;
+  }
+  #order .order--general button {
+    padding: 10px 50px;
+    font-size: 18px;
+    margin: 60px 463px;
+  }
+  #ask .ask--general details {
+    width: 975px;
+  }
+  #ask .ask--general button {
+    margin: 50px 385px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+  #header .header--general__logo {
+    display: none;
+  }
+  #hero .hero--general__gen h1 {
+    font-size: 11px;
+  }
+  #hero .hero--general__work--block {
+    height: 228px;
+    width: 206px;
+    padding: 17px;
+  }
+  #hero .hero--general__work--block__learn h1 {
+    font-size: 19px;
+  }
+  #hero .hero--general__work--block p {
+    font-size: 14px;
+  }
+  #setting .setting--general button {
+    margin: 50px 403px;
+  }
+  #process .process--general__block {
+    left: 51px;
+  }
+  #process .process--general__block {
+    width: 933px;
+    height: 360px;
+  }
+  #process .process--general__block--god__take--circle h5 {
+    font-size: 13px;
+  }
+  #stand {
+    min-height: 11vh;
+  }
+  #order .order--general button {
+    margin: 60px 354px;
+  }
+  #ask .ask--general details {
+    width: 814px;
+  }
+  #ask .ask--general button {
+    margin: 50px 333px;
+  }
+}
+@media (max-width: 992px) {
+  #process .process--general__block {
+    left: 34px;
+  }
+}
+@media (max-width: 768px) {
+  #header .header--general__logo2 {
+    display: none;
+  }
+  #hero .hero--general__gen h1 {
+    font-size: 8px;
+  }
+  #hero .hero--general__work {
+    flex-direction: column;
+  }
+  #hero .hero--general__work {
+    padding-top: 200px;
+  }
+  #hero .hero--general__work--block {
+    margin-top: 54px;
+  }
+  #setting .setting--general h1 {
+    font-weight: 550;
+    font-size: 45px;
+  }
+  #setting .setting--general button {
+    margin: 50px 277px;
+  }
+  #setting .setting--general .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  #process .process--general__desc {
+    flex-direction: column;
+  }
+  #process .process--general__block {
+    width: 90%;
+  }
+  #stand {
+    min-height: 31vh;
+  }
+  #process .process--general__block--god__take--circle__div {
+    width: 61px;
+    height: 55px;
+  }
+  #process .process--general__block--god__take--circle__div p {
+    font-size: 33px;
+    padding-left: 16px;
+  }
+  #process .process--general__block--god__take--circle h5 {
+    font-size: 10px;
+  }
+  #order .order--general button {
+    margin: 60px 263px;
+  }
+  #ask .ask--general details {
+    width: 590px;
+  }
+  #ask .ask--general button {
+    margin: 50px 238px;
+  }
+  #footer .footer--general {
+    flex-direction: column;
+  }
+  #footer .footer--general__block2--emile img {
+    width: 16px;
+  }
+  #footer .footer--general__block2--emile {
+    gap: 9px;
+    padding: 11px 0;
+  }
+  #footer .footer--general p {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 576px) {
+  #header .header--general__logo3 {
+    display: none;
+  }
+  #hero .hero--general__gen {
+    display: none;
+  }
+  #hero .hero--general__title h2 {
+    font-size: 48px;
+    margin-top: 138px;
+    padding-bottom: 20px;
+  }
+  #setting .setting--general button {
+    margin: 50px 201px;
+  }
+  #process .process--general__desc--item p {
+    font-size: 14px;
+  }
+  #process .process--general__desc--item__icon1 h2 {
+    font-size: 18px;
+  }
+  #process .process--general__desc--item__icon2 h2 {
+    font-size: 18px;
+  }
+  #process .process--general__desc--item h3 {
+    font-size: 14px;
+    padding-bottom: 26px;
+  }
+  #process .process--general__block--god {
+    flex-direction: column;
+  }
+  #process .process--general__block {
+    width: 439px;
+    height: 742px;
+  }
+  #process .process--general__block {
+    left: 61px;
+  }
+  #process .process--general__block--god__take--circle h5 {
+    font-size: 11px;
+  }
+  #stand {
+    min-height: 106vh;
+  }
+  #order .order--general button {
+    margin: 60px 182px;
+  }
+  #order .order--general button {
+    padding: 10px 30px;
+    font-size: 10px;
+  }
+  #ask .ask--general details {
+    width: 409px;
+  }
+  #ask .ask--general button {
+    margin: 21px 166px;
+  }
+}
+@media (max-width: 451px) {
+  #header .header--general button {
+    display: none;
+  }
+  #setting .setting--general h1 {
+    font-size: 40px;
+  }
+  #setting .setting--general button {
+    margin: 50px 143px;
+  }
+  #product .product--general__name {
+    font-size: 13px;
+  }
+  #process .process--general h1 {
+    font-size: 39px;
+  }
+  #process .process--general__block h4 {
+    font-size: 26px;
+  }
+  #process .process--general__block {
+    width: 328px;
+  }
+  #order .order--general button {
+    margin: 48px 143px;
+  }
+  #ask .ask--general details {
+    width: 295px;
+  }
+  #ask .ask--general button {
+    margin: 21px 89px;
+  }
+  #line .line--general__gen {
+    flex-direction: column;
+  }
+  #line .line--general__gen--btn1 {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 400px) {
+  #hero .hero--general__title h2 {
+    font-size: 42px;
+  }
+  #setting .setting--general button {
+    margin: 50px 123px;
+  }
+  #product .product--general__title {
+    flex-direction: column;
+  }
+  #product .product--general__title label {
+    margin: 8px 0;
+  }
+  #process .process--general__block {
+    width: 284px;
+  }
+  #process .process--general__block h4 {
+    font-size: 22px;
+  }
+  #order .order--general button {
+    margin: 48px 133px;
+  }
+  #ask .ask--general details {
+    width: 252px;
+  }
+  #ask .ask--general button {
+    margin: 21px 70px;
+  }
+}
+@media (max-width: 375px) {
+  #hero .hero--general__title h2 {
+    font-size: 36px;
+  }
+  #setting .setting--general h1 {
+    font-size: 35px;
+  }
+  #setting .setting--general button {
+    margin: 50px 115px;
+  }
+  #process .process--general__block {
+    left: 44px;
+  }
+  #order .order--general button {
+    margin: 48px 122px;
+  }
+  #ask .ask--general details {
+    width: 232px;
+  }
+  #ask .ask--general button {
+    margin: 16px 46px;
+  }
+}
+@media (max-width: 320px) {
+  #setting .setting--general button {
+    margin: 50px 92px;
+  }
+  #setting .setting--general .setting--general__swiper h2 {
+    font-size: 12px;
+  }
+  #process .process--general h1 {
+    font-size: 35px;
+  }
+  #process .process--general__desc--item__icon1 h2 {
+    font-size: 16px;
+  }
+  #process .process--general__desc--item__icon2 h2 {
+    font-size: 16px;
+  }
+  #process .process--general__block {
+    left: 20px;
+  }
+  #order .order--general button {
+    margin: 48px 96px;
+  }
+  #ask .ask--general details {
+    width: 187px;
+  }
+  #page .page--general h1 {
+    font-size: 33px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

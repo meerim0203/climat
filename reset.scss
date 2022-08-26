@@ -1,0 +1,111 @@
+
+body {
+  font-family: 'Roboto',sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+@mixin btn {
+  padding: 10px 30px;
+  border: 1px solid #8DB932;
+  color: white;
+  font-size: 20px;
+  transition: .4s;
+  background: #8DB932;
+  &:hover {
+    transform: scale(1.2);
+    border: 1px solid #8DB932 ;
+    background: transparent;
+  }
+}
+
+@mixin btn-2 {
+  padding: 10px 30px;
+  border: 1px solid #8DB932;
+  color: white;
+  font-size: 20px;
+  transition: .4s;
+  background: transparent;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px solid #8DB932 ;
+    background: transparent;
+  }
+}
+
+@mixin btn-3 {
+  padding: 10px 30px;
+  border: 1px solid #8DB932;
+  color: white;
+  font-size: 20px;
+  transition: .4s;
+  background:#8DB932 ;
+  border-radius: 10px;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px solid #8DB932 ;
+    background: transparent;
+    color: #8DB932;
+  }
+}
+
+@mixin btn-4 {
+  width: 211px;
+  height: 39px;
+  border: 1px solid #8DB932;
+  color: white;
+  font-size: 20px;
+  transition: .4s;
+  background:#8DB932 ;
+  border-radius: 10px;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px solid #8DB932 ;
+    background: transparent;
+    color: #8DB932;
+  }
+}
+
+@mixin btn-5 {
+  width: 221px;
+  height: 49px;
+  border: 1px solid #45B2EA;
+  color: black;
+  font-size: 18px;
+  transition: .4s;
+  background:transparent ;
+  border-radius: 10px;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px solid #45B2EA ;
+    background: transparent;
+    color: white;
+  }
+}
+
+@mixin btn-6 {
+  width: 221px;
+  height: 49px;
+  border: 1px solid #BDCFDB;
+  color: white;
+  font-size: 18px;
+  transition: .4s;
+  background:transparent ;
+  border-radius: 10px;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px solid #45B2EA ;
+    background: #8DB932;
+    color: white;
+  }
+}
